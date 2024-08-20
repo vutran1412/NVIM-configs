@@ -1,0 +1,2 @@
+require("vu")
+print("hello")
