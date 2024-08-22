@@ -38,4 +38,7 @@ return require('packer').startup(function(use)
   use({'neovim/nvim-lspconfig'})
   use({'hrsh7th/nvim-cmp'})
   use({'hrsh7th/cmp-nvim-lsp'})	
+  use('ThePrimeagen/vim-be-good')
+  use {'github/copilot.vim', branch = 'release' } 
+
 end)
